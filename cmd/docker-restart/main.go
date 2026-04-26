@@ -24,7 +24,7 @@ func main() {
 	flag.Parse()
 
 	// Setup the l instance.
-	l := log.New(*logLevelFlag)
+	l := log.NewJson(*logLevelFlag)
 
 	ctx := context.Background()
 
